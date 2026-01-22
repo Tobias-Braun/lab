@@ -20,5 +20,5 @@ _Remark:_ Your first identity file (named id_xyz is used per default, a config e
 #### Add to ssh-agent
 
 ```bash
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+ssh-add --apple-use-keychain ~/.ssh/user-identity@provider.com
 ```
