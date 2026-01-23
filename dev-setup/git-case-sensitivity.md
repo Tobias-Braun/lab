@@ -21,7 +21,7 @@ This guide describes how to create and use a **separate, case‑sensitive APFS v
 4. Click the **“+” (Add Volume)** button in the toolbar.
 5. Use the following settings:
    - **Name**: `Developer`
-   - **Format**: `APFS (Case-sensitive)` -> Choose `(Case-sensitive, encrypted, for work devices)`
+   - **Format**: `APFS (Case-sensitive)` -> Choose `(Case-sensitive, encrypted)` for work devices
    - **Role**: `None` (default is fine)
 6. Click **Add**.
 
