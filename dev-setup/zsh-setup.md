@@ -1,5 +1,22 @@
 ## ZSH Setup (TBD more precisely)
 
+#### Use compinstall to configure autocomplete
+
+Run this command after installing zsh or when configuring your terminal
+
+```bash
+compinstall # this installs and configures the zsh autocomplete
+```
+
+#### Add this to allow for forwards-delete-word
+
+Add this to your .zshrc
+
+```bash
+# KEY BINDINGS
+bindkey '^[[3;3~' kill-word
+```
+
 #### I am using nvm (installed via homebrew), pyenv and starship
 
 To add, add this to your `~/.zshrc`
