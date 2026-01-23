@@ -1,14 +1,19 @@
-## How to Setup iterm2
+## How to Set Up iTerm2
 
-#### Navigation (delete words and move cursor around by words)
+#### 1. Enable Natural Text Navigation (move/delete by words)
 
-Use the answer here:
+To get “normal” text navigation (e.g. `⌥←`, `⌥→`, `⌥⌫` to move/delete by words), enable _Natural Text Editing_ in iTerm2:
 
-Killing a fly with a cannon:
+1. Open **iTerm2**.
+2. In the menu bar, go to **iTerm2 → Settings…**
+   > ⚠️ Not **Preferences… → Keys** – you need **Profiles → Keys**.
+3. Select the **Profiles** tab.
+4. Choose your profile (usually **Default**).
+5. Go to the **Keys** tab (may be called **Key Mappings** in older versions).
+6. Click the **Presets…** dropdown at the bottom.
+7. Select **Natural Text Editing**.
 
-Go to iTerm2 (in the menu bar) > Settings... > Profiles > Keys (not "Preferences... > Keys"!),
-Switch to the Key Bindings (recent versions of iTerm2) or Key Mappings (older versions) tab,
-Press Presets... dropdown button,
-Select Natural Text Editing.
+This will configure common shortcuts so that navigation and deletion by words behaves more like typical text editors and terminals.
 
-Original Link (go to highest upvoted answer): https://apple.stackexchange.com/questions/154292/iterm-going-one-word-backwards-and-forwards
+More details and context:  
+https://apple.stackexchange.com/questions/154292/iterm-going-one-word-backwards-and-forwards
